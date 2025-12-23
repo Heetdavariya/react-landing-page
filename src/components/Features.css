@@ -1,0 +1,44 @@
+.features-section {
+  padding: 100px 40px;
+  background: #f9fafb;
+  text-align: center;
+}
+
+.features-title {
+  font-size: 32px;
+  margin-bottom: 50px;
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: white;
+  padding: 30px;
+  width: 280px;
+  border-radius: 14px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+}
+@media (max-width: 768px) {
+  .features-section {
+    padding: 80px 20px;
+  }
+
+  .features-title {
+    font-size: 26px;
+  }
+
+  .features {
+    flex-direction: column;
+    align-items: center;
+  }
+}
